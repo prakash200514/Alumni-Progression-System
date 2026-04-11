@@ -1,0 +1,7 @@
+-- Add new columns for status details
+ALTER TABLE `students` 
+ADD COLUMN IF NOT EXISTS `status_type` VARCHAR(50) DEFAULT NULL COMMENT 'Working, Higher Studies, Self or Business, Other',
+ADD COLUMN IF NOT EXISTS `company_name` VARCHAR(255) DEFAULT NULL,
+ADD COLUMN IF NOT EXISTS `salary` VARCHAR(100) DEFAULT NULL,
+ADD COLUMN IF NOT EXISTS `college_name` VARCHAR(255) DEFAULT NULL,
+ADD COLUMN IF NOT EXISTS `studies_name` VARCHAR(255) DEFAULT NULL;

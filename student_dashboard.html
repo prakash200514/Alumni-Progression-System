@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard | St.John's College</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Top Navigation -->
+    <nav class="navbar" style="padding: 10px 0;">
+        <div class="container navbar-container">
+            <div class="logo-container">
+                <a href="index.html" class="college-logo-placeholder" style="text-decoration: none;">SJC</a>
+                <div class="college-name">
+                    <h1>St.John's College, Palayamkottai</h1>
+                    <span>Student Dashboard</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <span class="text-light" style="margin-right: 15px;">Welcome, User</span>
+                <a href="logout.php" class="btn btn-secondary" style="padding: 5px 15px; font-size: 0.85rem;">Logout</a>
+            </div>
+            <div class="mobile-menu-btn" id="sidebarToggle">☰</div>
+        </div>
+    </nav>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="user-profile-mini">
+                <div class="avatar-circle">JD</div>
+                <div>
+                    <div style="font-weight: 600;">John Doe</div>
+                    <div style="font-size: 0.8rem; opacity: 0.7;">CSE - 2024</div>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a>
+                <a href="#"><i class="fas fa-user"></i> My Profile</a>
+                <a href="#"><i class="fas fa-briefcase"></i> Update Status</a>
+                <a href="#"><i class="fas fa-file-upload"></i> Upload Proof</a>
+                <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h2>My Dashboard</h2>
+                <span class="badge badge-success">Verified Profile</span>
+            </div>
+
+            <div class="cards-grid mb-4">
+                <div class="info-card" style="border-top-color: var(--secondary-color);">
+                    <h3>Current Status</h3>
+                    <p class="mt-2 text-center"
+                        style="font-size: 1.2rem; font-weight: bold; color: var(--primary-color);">Working Professional
+                    </p>
+                    <p class="text-center text-light">Software Engineer at Tech Corp</p>
+                </div>
+                <div class="info-card" style="border-top-color: var(--warning);">
+                    <h3>Verification Docs</h3>
+                    <p class="mt-2 text-center"><span class="badge badge-success">Approved</span></p>
+                    <p class="text-center text-light">Last updated: 10 Oct 2025</p>
+                </div>
+                <!-- Add more summary cards if needed -->
+            </div>
+
+            <!-- Profile Details Section -->
+            <div class="section-card">
+                <div class="card-header">
+                    <h3>Profile Information</h3>
+                    <button class="btn btn-accent" style="padding: 5px 15px; font-size: 0.8rem;">Edit Profile</button>
+                </div>
+                <div class="card-body">
+                    <div class="form-row">
+                        <div class="mb-3">
+                            <strong class="text-light">Full Name:</strong>
+                            <div>John Doe</div>
+                        </div>
+                        <div class="mb-3">
+                            <strong class="text-light">Register ID:</strong>
+                            <div>2020CSE056</div>
+                        </div>
+                        <div class="mb-3">
+                            <strong class="text-light">Department:</strong>
+                            <div>Computer Science Engineering</div>
+                        </div>
+                        <div class="mb-3">
+                            <strong class="text-light">Batch:</strong>
+                            <div>2020 - 2024</div>
+                        </div>
+                        <div class="mb-3">
+                            <strong class="text-light">Email:</strong>
+                            <div>john.doe@example.com</div>
+                        </div>
+                        <div class="mb-3">
+                            <strong class="text-light">Phone:</strong>
+                            <div>+1 987 654 3210</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

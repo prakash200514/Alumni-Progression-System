@@ -1,0 +1,16 @@
+Columns in 'students' table:
+id - int
+register_number - varchar(50)
+name - varchar(100)
+department - varchar(100)
+batch_year - int
+email - varchar(100)
+phone - varchar(20)
+password_hash - varchar(255)
+status - enum('Pending','Approved','Rejected')
+created_at - timestamp
+current_job - varchar(100)
+address - text
+id_photo - varchar(255)
+working_proof - text
+signature - text
