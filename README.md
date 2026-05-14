@@ -202,3 +202,31 @@ if ($conn->connect_error) {
 ```
 
 > Default XAMPP credentials: host=`localhost`, user=`root`, password=`""` (empty)
+
+### Step 5 — Create Admin/Staff Account
+
+Insert a staff record manually via phpMyAdmin SQL tab:
+
+```sql
+INSERT INTO staff (name, email, password_hash)
+VALUES (
+  'Admin',
+  'admin@stjohnscollege.edu',
+  '$2y$10$REPLACE_WITH_BCRYPT_HASH'
+);
+```
+
+> Generate a bcrypt hash at: https://bcrypt-generator.com/ (cost factor: 10)
+
+### Step 6 — Run the Application
+
+Open your browser and visit:
+
+```
+http://localhost/ex%20student%20data/
+```
+
+Or navigate to:
+- 🏠 Home: `http://localhost/ex%20student%20data/index.html`
+- 🎓 Student Login: `http://localhost/ex%20student%20data/student_login.php`
+- 🛡️ Staff Login: `http://localhost/ex%20student%20data/admin_login.php`
