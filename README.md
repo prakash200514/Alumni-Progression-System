@@ -101,3 +101,32 @@ ex student data/
 │
 └── uploads/                    # Profile photos uploaded by students
 ```
+
+## 🗄️ Database Schema
+
+### Database: `ex_student_db`
+
+#### `students` table
+| Column           | Type          | Description                              |
+|------------------|---------------|------------------------------------------|
+| `id`             | INT (PK)      | Auto-increment primary key               |
+| `register_number`| VARCHAR(50)   | Unique college register number           |
+| `name`           | VARCHAR(100)  | Full name                                |
+| `department`     | VARCHAR(100)  | e.g., CSE, IT, ECE, MECH, CIVIL, ARTS   |
+| `batch_year`     | INT           | e.g., 2021-2025                          |
+| `email`          | VARCHAR(100)  | Unique email address                     |
+| `phone`          | VARCHAR(20)   | Contact number                           |
+| `current_job`    | VARCHAR(100)  | General job/status description           |
+| `address`        | TEXT          | Current address                          |
+| `photo`          | VARCHAR(255)  | Profile photo path                       |
+| `id_photo`       | VARCHAR(255)  | ID card photo path or Drive link         |
+| `signature`      | VARCHAR(255)  | Signature image (Drive link)             |
+| `working_proof`  | VARCHAR(255)  | Offer letter / ID card (Drive link)      |
+| `password_hash`  | VARCHAR(255)  | Bcrypt password hash                     |
+| `status`         | ENUM          | `Pending` / `Approved` / `Rejected`      |
+| `status_type`    | VARCHAR(50)   | Working / Higher Studies / Other         |
+| `company_name`   | VARCHAR(255)  | Company (if Working)                     |
+| `salary`         | VARCHAR(100)  | Salary info (if Working)                 |
+| `college_name`   | VARCHAR(255)  | College name (if Higher Studies)         |
+| `studies_name`   | VARCHAR(255)  | Course/program (if Higher Studies)       |
+| `created_at`     | TIMESTAMP     | Registration timestamp            
