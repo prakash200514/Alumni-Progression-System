@@ -48,3 +48,10 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 - View proof documents linked via Google Drive
 - **Download individual student profile** as a printable report (`download_student.php`)
 - Role-based access control (Admin sees all; Staff sees only their department)
+
+
+### 🌐 Landing Page
+- College-branded home page with hero section and call-to-action
+- Statistics strip (500+ Alumni, 85% Working, etc.)
+- Info cards: Verified Records, Career Tracking, Secure Data
+- Responsive navigation with mobile menu toggle
