@@ -139,3 +139,14 @@ ex student data/
 | `email`         | VARCHAR(100) | Unique email             |
 | `password_hash` | VARCHAR(255) | Bcrypt password hash     |
 | `created_at`    | TIMESTAMP    | Account creation time    |
+
+#### `student_proofs` table
+| Column         | Type         | Description                        |
+|----------------|--------------|------------------------------------|
+| `id`           | INT (PK)     | Auto-increment primary key         |
+| `student_id`   | INT (FK)     | References `students.id`           |
+| `id_photo`     | VARCHAR(255) | ID photo at time of submission     |
+| `signature`    | VARCHAR(255) | Signature at time of submission    |
+| `working_proof`| VARCHAR(255) | Proof doc at time of submission    |
+| `status`       | VARCHAR(20)  | `latest` or `previous`            |
+| `uploaded_at`  | TIMESTAMP    | Submission timestamp     
