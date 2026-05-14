@@ -16,3 +16,13 @@ A web-based alumni tracking and data collection portal built for **St. John's Co
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
+
+## 📖 About the Project
+
+The **Ex-Student Data Portal** is an official alumni data management system for St. John's College. It allows:
+
+- **Alumni (ex-students)** to self-register, log in, and update their professional or academic status.
+- **Staff/Admins** to view all registered alumni, filter by department, and download individual profile reports.
+- The college to maintain a **verified, centralized record** of alumni progression for placement statistics and networking purposes.
+
+---
