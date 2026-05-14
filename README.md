@@ -264,3 +264,15 @@ Run these if you are upgrading from an older version of the schema:
 | `create_student_proofs_table.sql` | Creates `student_proofs` history table |
 | `add_subcategory_column.sql` | Adds subcategory columns (if used) |
 | `db_update.sql` | Additional column updates |
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m "Add: your feature description"`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a Pull Request
+
+---
