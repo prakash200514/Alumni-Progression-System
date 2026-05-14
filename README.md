@@ -234,3 +234,14 @@ Or navigate to:
 ## 🔐 Default Login Credentials
 
 > There are no default credentials pre-seeded. You must add staff accounts manually via phpMyAdmin as shown above. Students register themselves via `student_register.php`.
+
+## 📖 Usage Guide
+
+### For Students (Alumni)
+1. Go to **Student Login** → click **Register**
+2. Fill in your Register Number, Name, Department, Batch Year, Email, Phone, and Password
+3. After registration, log in and complete your profile:
+   - Select your current status (Working / Higher Studies / Other)
+   - Fill in the relevant details and proof links (Google Drive)
+   - Upload your profile photo
+4. Your profile will show as **Pending** until reviewed by staff
