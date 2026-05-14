@@ -130,3 +130,12 @@ ex student data/
 | `college_name`   | VARCHAR(255)  | College name (if Higher Studies)         |
 | `studies_name`   | VARCHAR(255)  | Course/program (if Higher Studies)       |
 | `created_at`     | TIMESTAMP     | Registration timestamp            
+
+#### `staff` table
+| Column          | Type         | Description              |
+|-----------------|--------------|--------------------------|
+| `id`            | INT (PK)     | Auto-increment primary key |
+| `name`          | VARCHAR(100) | Staff full name          |
+| `email`         | VARCHAR(100) | Unique email             |
+| `password_hash` | VARCHAR(255) | Bcrypt password hash     |
+| `created_at`    | TIMESTAMP    | Account creation time    |
