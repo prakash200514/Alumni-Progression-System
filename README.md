@@ -252,3 +252,15 @@ Or navigate to:
 3. View the dashboard with alumni stats
 4. Browse the student progression table
 5. Click **Download Profile** to export a student's printable report
+
+## 🗂️ SQL Migration Files
+
+Run these if you are upgrading from an older version of the schema:
+
+| File | Purpose |
+|------|---------|
+| `database.sql` | Creates `students` and `staff` tables |
+| `add_status_fields.sql` | Adds career status columns to `students` |
+| `create_student_proofs_table.sql` | Creates `student_proofs` history table |
+| `add_subcategory_column.sql` | Adds subcategory columns (if used) |
+| `db_update.sql` | Additional column updates |
