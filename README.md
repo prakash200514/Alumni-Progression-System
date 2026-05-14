@@ -230,3 +230,7 @@ Or navigate to:
 - 🏠 Home: `http://localhost/ex%20student%20data/index.html`
 - 🎓 Student Login: `http://localhost/ex%20student%20data/student_login.php`
 - 🛡️ Staff Login: `http://localhost/ex%20student%20data/admin_login.php`
+
+## 🔐 Default Login Credentials
+
+> There are no default credentials pre-seeded. You must add staff accounts manually via phpMyAdmin as shown above. Students register themselves via `student_register.php`.
