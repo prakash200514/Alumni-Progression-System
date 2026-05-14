@@ -150,3 +150,55 @@ ex student data/
 | `working_proof`| VARCHAR(255) | Proof doc at time of submission    |
 | `status`       | VARCHAR(20)  | `latest` or `previous`            |
 | `uploaded_at`  | TIMESTAMP    | Submission timestamp     
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/) (PHP 8.x + Apache + MySQL)
+- A modern web browser
+
+### Step 1 — Clone / Copy the Project
+```
+Place the project folder in:
+C:\xampp\htdocs\ex student data\
+```
+
+### Step 2 — Start XAMPP Services
+Open **XAMPP Control Panel** and start:
+- ✅ **Apache**
+- ✅ **MySQL**
+
+### Step 3 — Set Up the Database
+
+1. Open your browser and go to: `http://localhost/phpmyadmin`
+2. Click **"New"** to create a database named `ex_student_db`
+3. Select the new database and click the **SQL** tab
+4. Run the following SQL files **in order**:
+
+```sql
+-- Step 3a: Core schema
+SOURCE database.sql;
+
+-- Step 3b: Career/status columns
+SOURCE add_status_fields.sql;
+
+-- Step 3c: Proof history table
+SOURCE create_student_proofs_table.sql;
+```
+
+> **Or** import each `.sql` file via phpMyAdmin → Import tab.
+
+### Step 4 — Configure Database Connection
+
+Edit `db_connect.php` (or `db.php`) with your MySQL credentials:
+
+```php
+<?php
+$conn = new mysqli("localhost", "root", "", "ex_student_db");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+```
+
+> Default XAMPP credentials: host=`localhost`, user=`root`, password=`""` (empty)
