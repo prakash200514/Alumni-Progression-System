@@ -55,3 +55,15 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 - Statistics strip (500+ Alumni, 85% Working, etc.)
 - Info cards: Verified Records, Career Tracking, Secure Data
 - Responsive navigation with mobile menu toggle
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology                          |
+|--------------|-------------------------------------|
+| Frontend     | HTML5, CSS3, JavaScript (Vanilla)   |
+| Backend      | PHP 8.x                             |
+| Database     | MySQL (via MySQLi)                  |
+| Icons        | Font Awesome 6.4                    |
+| Server       | Apache (XAMPP)                      |
+| File Storage | Local `uploads/` directory          |
+| Proof Docs   | Google Drive links (external)       |
