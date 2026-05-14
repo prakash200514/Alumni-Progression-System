@@ -26,3 +26,14 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 - The college to maintain a **verified, centralized record** of alumni progression for placement statistics and networking purposes.
 
 ---
+### 👨‍🎓 Student Portal
+- Self-registration with register number, department, batch year, email & phone
+- Secure login with hashed password authentication
+- Profile update with dynamic status-based fields:
+  - **Working** → Company name, salary, ID card / offer letter (Google Drive link)
+  - **Higher Studies** → College/university name, course/program name
+  - **Self or Business / Other** → Custom description
+- Profile photo upload (JPG/PNG stored locally)
+- Signature and working proof upload via Google Drive links
+- Proof history tracking (previous submissions retained)
+- Account status display: `Pending`, `Approved`, `Rejected`
