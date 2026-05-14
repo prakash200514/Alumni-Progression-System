@@ -245,3 +245,10 @@ Or navigate to:
    - Fill in the relevant details and proof links (Google Drive)
    - Upload your profile photo
 4. Your profile will show as **Pending** until reviewed by staff
+
+### For Staff / Admin
+1. Go to **Admin / Staff Login**
+2. Log in with your staff credentials
+3. View the dashboard with alumni stats
+4. Browse the student progression table
+5. Click **Download Profile** to export a student's printable report
