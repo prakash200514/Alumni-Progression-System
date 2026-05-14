@@ -67,3 +67,37 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 | Server       | Apache (XAMPP)                      |
 | File Storage | Local `uploads/` directory          |
 | Proof Docs   | Google Drive links (external)       |
+
+
+## 📁 Project Structure
+
+```
+ex student data/
+│
+├── index.html                  # Landing / Home page
+├── student_login.php           # Student login page
+├── student_register.php        # Student self-registration
+├── student_dashboard.php       # Student profile & proof management
+├── logout.php                  # Student session logout
+│
+├── admin_login.php             # Admin / Staff login page
+├── admin_dashboard.php         # Admin overview & student table
+├── admin_logout.php            # Admin session logout
+│
+├── download_student.php        # Generate printable student profile
+│
+├── db.php                      # Database connection (active)
+├── db_connect.php              # Alternate DB connection file
+│
+├── database.sql                # Initial DB schema (students + staff)
+├── add_status_fields.sql       # Migration: adds career columns
+├── create_student_proofs_table.sql  # Migration: proof history table
+├── add_status_fields.php       # PHP runner for status fields migration
+│
+├── css/                        # Legacy CSS files
+├── assets/
+│   ├── css/style.css           # Main stylesheet
+│   └── js/script.js            # Main JavaScript
+│
+└── uploads/                    # Profile photos uploaded by students
+```
