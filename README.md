@@ -37,3 +37,14 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 - Signature and working proof upload via Google Drive links
 - Proof history tracking (previous submissions retained)
 - Account status display: `Pending`, `Approved`, `Rejected`
+
+### 🛡️ Admin / Staff Portal
+- Separate login for **Admin** (all departments) and **Staff** (department-specific view)
+- Overview dashboard with stats:
+  - Total registered alumni
+  - Working count
+  - Higher Studies count
+- Student progression table with photo, contact, department, batch, and career path
+- View proof documents linked via Google Drive
+- **Download individual student profile** as a printable report (`download_student.php`)
+- Role-based access control (Admin sees all; Staff sees only their department)
