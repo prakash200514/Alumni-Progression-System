@@ -284,5 +284,4 @@ This project was developed as an academic/college management system for **St. Jo
 
 <div align="center">
   <strong>St. John's College, Palayamkottai</strong><br>
-  Empowering students with quality education and maintaining lifelong bonds with our alumni community.<br><br>
- 
+
