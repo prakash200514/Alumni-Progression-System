@@ -280,4 +280,3 @@ Contributions are welcome! To contribute:
 
 This project was developed as an academic/college management system for **St. John's College, Palayamkottai**. All rights reserved © 2026.
 
---
