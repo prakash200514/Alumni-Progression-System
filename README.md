@@ -283,5 +283,4 @@ This project was developed as an academic/college management system for **St. Jo
 ---
 
 <div align="center">
-  <strong>St. John's College, Palayamkottai</strong><br>
-
+  <strong>St. John's College, 
