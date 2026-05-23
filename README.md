@@ -285,5 +285,4 @@ This project was developed as an academic/college management system for **St. Jo
 <div align="center">
   <strong>St. John's College, Palayamkottai</strong><br>
   Empowering students with quality education and maintaining lifelong bonds with our alumni community.<br><br>
-  📍 Palayamkottai, Tirunelveli &nbsp;|&nbsp; 📞 +123 456 7890 &nbsp;|&nbsp; ✉️ alumni@stjohnscollege.edu
-</div>
+ 
