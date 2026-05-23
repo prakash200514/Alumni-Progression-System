@@ -283,4 +283,4 @@ This project was developed as an academic/college management system for **St. Jo
 ---
 
 <div align="center">
-  <strong>St. 
+
