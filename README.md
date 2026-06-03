@@ -71,7 +71,7 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 
 ## 📁 Project Structure
 
-```
+`
 ex student data/
 │
 ├── index.html                  # Landing / Home page
