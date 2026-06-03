@@ -275,7 +275,7 @@ Contributions are welcome! To contribute:
 4. Push to the branch: `git push origin feature/your-feature-name`
 5. Open a Pull Request
 
----
+
 ## 📄 License
 
 This project was developed as an academic/college management system for **St. John's College, Palayamkottai**. All rights reserved © 2026.
