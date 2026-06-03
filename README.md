@@ -265,6 +265,8 @@ Run these if you are upgrading from an older version of the schema:
 | `add_subcategory_column.sql` | Adds subcategory columns (if used) |
 | `db_update.sql` | Additional column updates |
 
+-
+
 ## 🤝 Contributing
 
 Contributions are welcome! To contribute:
