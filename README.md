@@ -25,7 +25,7 @@ The **Ex-Student Data Portal** is an official alumni data management system for 
 - **Staff/Admins** to view all registered alumni, filter by department, and download individual profile reports.
 - The college to maintain a **verified, centralized record** of alumni progression for placement statistics and networking purposes.
 
----
+
 ### 👨‍🎓 Student Portal
 - Self-registration with register number, department, batch year, email & phone
 - Secure login with hashed password authentication
